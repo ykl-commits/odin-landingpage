@@ -4,9 +4,9 @@ body {
     font-family: roboto, sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 0 32px;
-    background-color: #1F2937;
+    /* align-items: center; */
+    padding: 0;
+    margin: 0;
 }
 
 .nav {
@@ -26,11 +26,14 @@ body {
 .section {
     display: flex;
     flex-direction: column;
+    background-color: #1F2937;
+    padding: 0 20%;
     /* border: 2px;
     border-style: solid;
-    border-color: black; */
-    max-width: 1000px;
+    border-color: black;  */
+
 }
+
 
 
 .nav ul {
@@ -58,8 +61,9 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 48px;
+    margin-top: 10%;
     gap: 32px;
+    padding-bottom: 80px;
 }
 
 .copy h1 {
@@ -80,7 +84,7 @@ body {
 }
 
 .right {
-    max-width: 65%;
+    max-width: 55%;
 }
 
 button {
@@ -94,4 +98,100 @@ button {
 
 }
 
+
+.section.info {
+    background-color: white;
+    margin: 3% 0px;
+}
+
+h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+    text-align: center;
+}
+
+.outline {
+    border: 3px solid #3882f6;
+    border-radius: .50em;
+    width: 120px;
+    height: 120px;
+}
+
+.card p {
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.quote {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+    text-align: start;
+    /* margin-bottom: -10px; */
+}
+
+.section.quote {
+    background-color:#e5e7eb;
+    color: black;
+    font-size: 20px;
+    text-align: end;
+    padding: 5% 20%;
+}
+
+
+.section.cta {
+    background-color: #3882f6;
+    border-radius: .5em;
+    margin: 48px 10%;
+    /* align-items: space-between; */
+    display: flex;
+    padding: 32px;
+    /* padding: % */
+}
+
+.blue {
+    background-color: #3882f6;
+    /* padding: 32px; */
+    display: flex;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 64px;
+    padding: 0;
+}
+
+.blue button {
+    border: 1px solid white;
+    /* align-self: */
+    /* margin-left: auto; */
+} 
+
+.section.footer {
+
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer p {
+    color: #e5e7eb;
+    margin: 24px 0;
+}
 
